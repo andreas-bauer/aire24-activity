@@ -38,10 +38,37 @@ There, you find the requirement, the expected output, CiRA's output, as well as 
 
 ### Output by the LLM
 
-&#9989;/&#10060; (state whether the LLM produces the expected output)
+&#10060; Not as expected
 
 ```text
-(enter your solution here)
+ the conditional variables can be explicitly listed as:
+
+	1.	Content availability in detected system language: This variable determines if the content exists in the language that the system has identified.
+	2.	Detected system language: This variable identifies which language the system has detected as the preferred language of the user.
+
+Test Case 1: Content Available in Detected System Language
+
+Description: Verify that the content is displayed in the detected system language when it is available.
+
+Steps:
+
+	1.	Set the system language to Spanish.
+	2.	Ensure the content is available in Spanish.
+	3.	Access the content.
+
+Expected Result: The content is displayed in Spanish.
+
+Test Case 2: Content Not Available in Detected System Language
+
+Description: Verify that the content is displayed in English when it is not available in the detected system language.
+
+Steps:
+
+	1.	Set the system language to Spanish.
+	2.	Ensure the content is not available in Spanish but is available in English.
+	3.	Access the content.
+
+Expected Result: The content is displayed in English.
 ```
 
 ## Requirement 1
