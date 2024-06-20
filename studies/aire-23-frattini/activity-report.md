@@ -12,5 +12,7 @@ Use the requirements sentences in [data.md](data.md) to compare the [CiRA tool](
 Document your developed prompt(s) in the following form:
 
 ```text
-(enter your prompt here)
+You are in the role of a requirements engineer. What are the conditional variables in the following textual description of a requirement: If the content is not available in the detected system language, English is selected by default.
+
+The expexted output are two test cases covering the requirement.
 ```
