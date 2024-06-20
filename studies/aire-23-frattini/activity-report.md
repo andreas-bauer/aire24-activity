@@ -4,7 +4,7 @@ In this file you can report the results from your participation in the activity.
 
 ## Selected LLM
 
-Selected large language model or generative AI tool: `(enter LLM name and version)`
+Selected large language model or generative AI tool: `ChatGPT 4o`
 
 ## Developed Prompt
 
